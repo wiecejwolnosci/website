@@ -1,0 +1,19 @@
+# Site settings
+title: Więcej Wolności 
+tagline: Robimy na poważnie 
+description: > # this means to ignore newlines until "baseurl:"
+  Wiecej Wolności jest blogiem poświeconym wolności, przede wszystkim wolności finansowej, kryptowalutom, w szczególności kryptowalucie Ada i projektowi Cardano.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+
+# Plugins
+plugins: ["jekyll-paginate"]
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/sass
+
+# Pagination
+paginate: 4
+paginate_path: "/blog/page:num/"
